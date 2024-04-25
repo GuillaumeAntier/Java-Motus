@@ -1,4 +1,9 @@
 import java.util.Scanner;
+import java.io.FileReader;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
 
 public class InitGame {
 
@@ -25,7 +30,7 @@ public class InitGame {
     }
 
     private String generateWord(String numberOfLetters) {
-        return "test";
+        Object dictionnary = new JSONParser().parse(new FileReader("words.json"));
     }
 
     public Integer getnumberOfTries() {
