@@ -30,7 +30,6 @@ public class InitGame {
     }
 
     private String generateWord(String numberOfLetters) {
-        Object dictionnary = new JSONParser().parse(new FileReader("words.json"));
     }
 
     public Integer getnumberOfTries() {
