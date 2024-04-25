@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        InitGame initialize = new InitGame();
+        PlayGame game = new PlayGame(initialize.getWordToFind(), initialize.getnumberOfTries());
     }
 }
