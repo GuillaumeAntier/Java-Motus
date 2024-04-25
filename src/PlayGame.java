@@ -29,22 +29,27 @@ public class PlayGame {
 
     public void displayGame(String word){
         System.out.println("You put the following word: " + word);
-        System.out.println(" ");
-        System.out.println("---------------------------");
+        System.out.println(generateLine(wordToFind.length()));
         for (int i = 0; i < wordToFind.length(); i++){
             if (word.charAt(i) == wordToFind.charAt(i)){
-                System.out.print(" | " +"\033[42;30m" + " " + word.charAt(i) + " " + "\033[0m" + " ");
+                System.out.print("|" +"\033[42;30m" + " " + word.charAt(i) + " " + "\033[0m");
             } else if ( wordToFind.contains(String.valueOf(word.charAt(i)))){
-                System.out.print(" | " +"\033[43;30m" + " " + word.charAt(i) + " " + "\033[0m" + " ");
+                System.out.print("|" +"\033[43;30m" + " " + word.charAt(i) + " " + "\033[0m");
             }
             else {
-                System.out.print(" | " +"\033[41;30m" + " " + word.charAt(i) + " " + "\033[0m" + " ");
+                System.out.print("|" +"\033[41;30m" + " " + word.charAt(i) + " " + "\033[0m");
             }
         }
-        System.out.println(" | ");
-        System.out.println("---------------------------");
-        System.out.println(" ");
+        System.out.println("|");
+        System.out.println(generateLine(wordToFind.length()));
         System.out.println("You have " + numberOfTries + " tries left");
+    }
+
+    private String generateLine(int length) {
+        StringBuilder line = new StringBuilder();
+        line.append("----".repeat(Math.max(0, length)));
+        line.append("-");
+        return line.toString();
     }
 
     public String askUser(){
