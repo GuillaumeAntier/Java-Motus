@@ -1,20 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
-import java.io.FileReader;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
 
 public class InitGame {
 
     private Integer numberOfTries;
     private String numberOfLetters;
     private String wordToFind;
+    private List<String> library;
 
-    public InitGame() {
+    public InitGame(List<String> words) {
+        if (words == null) {
+            throw new IllegalArgumentException("Words list cannot be null");
+        }
+        this.library = words;
         this.numberOfLetters = askNumberOfLetters();
         this.wordToFind = generateWord(this.numberOfLetters);
         this.numberOfTries = askNumberOfTries();
+
     }
 
     private String askNumberOfLetters() {
@@ -30,6 +33,13 @@ public class InitGame {
     }
 
     private String generateWord(String numberOfLetters) {
+
+        String word = "";
+
+        do {
+            word = library.get((int) (Math.random() * library.size()));
+        } while (word.length() != Integer.parseInt(numberOfLetters)); {}
+        return word;
     }
 
     public Integer getnumberOfTries() {

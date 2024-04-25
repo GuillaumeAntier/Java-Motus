@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        InitGame initialize = new InitGame();
-        PlayGame game = new PlayGame(initialize.getWordToFind(), initialize.getnumberOfTries());
+        Library library = new Library();
+        InitGame initialize = new InitGame(library.words);
+       PlayGame game = new PlayGame(initialize.getWordToFind(), initialize.getnumberOfTries());
+        System.out.println("The word to find is: " + initialize.getWordToFind());
     }
 }

@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e24f53-5bc0-4693-86ca-928bf3a258d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InitGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlayGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8e24f53-5bc0-4693-86ca-928bf3a258d2" name="Changes" comment="remove json for txt">
+      <change afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InitGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InitGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EdgarCou"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GuillaumeAntier/Java-Motus.git",
+    "accountId": "92f42d04-bb80-47fa-be4c-d40bd3461535"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -42,10 +54,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "noé",
+    "git-widget-placeholder": "Edgar",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lecha/OneDrive - Ynov/Bureau/Ynov/Java-Motus",
     "node.js.detected.package.eslint": "true",
@@ -56,6 +69,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,9 +93,39 @@
       <workItem from="1714026667709" duration="5000" />
       <workItem from="1714026800399" duration="1178000" />
     </task>
+    <task id="LOCAL-00001" summary="try to create library">
+      <option name="closed" value="true" />
+      <created>1714029647867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714029647867</updated>
+    </task>
+    <task id="LOCAL-00002" summary="try to create library">
+      <option name="closed" value="true" />
+      <created>1714029706353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714029706353</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove json for txt">
+      <option name="closed" value="true" />
+      <created>1714031444012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714031444012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try to create library" />
+    <MESSAGE value="remove json for txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove json for txt" />
   </component>
 </project>
