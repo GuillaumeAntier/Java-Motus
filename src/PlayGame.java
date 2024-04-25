@@ -22,6 +22,9 @@ public class PlayGame {
                 displayGame(word);
             }
         }
+        if (numberOfTries == 0){
+            System.out.println("You lost, the word to find was: " + wordToFind);
+        }
     }
 
     public void displayGame(String word){
