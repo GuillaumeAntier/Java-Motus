@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e8e24f53-5bc0-4693-86ca-928bf3a258d2" name="Changes" comment="remove json for txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InitGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InitGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +35,12 @@
     &quot;assignee&quot;: &quot;EdgarCou&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GuillaumeAntier/Java-Motus.git&quot;,
-    &quot;accountId&quot;: &quot;92f42d04-bb80-47fa-be4c-d40bd3461535&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GuillaumeAntier/Java-Motus.git",
+    "accountId": "a86e3fbd-7917-4b96-a1f1-1913a597284f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -55,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "noé",
+    "git-widget-placeholder": "guillaume",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/lecha/OneDrive - Ynov/Bureau/Ynov/Java-Motus",
     "node.js.detected.package.eslint": "true",
@@ -89,6 +90,7 @@
       <updated>1714026666599</updated>
       <workItem from="1714026667709" duration="5000" />
       <workItem from="1714026800399" duration="1178000" />
+      <workItem from="1714035053567" duration="1793000" />
     </task>
     <task id="LOCAL-00001" summary="try to create library">
       <option name="closed" value="true" />
