@@ -4,5 +4,6 @@ public class Main {
         InitGame initialize = new InitGame(library.words);
         PlayGame game = new PlayGame(initialize.getWordToFind(), initialize.getnumberOfTries());
         System.out.println("The word to find is: " + initialize.getWordToFind());
+        game.startGame();
     }
 }
