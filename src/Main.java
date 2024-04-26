@@ -3,7 +3,7 @@ public class Main {
         Library library = new Library();
         InitGame initialize = new InitGame(library.words);
         PlayGame game = new PlayGame(initialize.getWordToFind(), initialize.getnumberOfTries());
-        System.out.println("The word to find is: " + initialize.getWordToFind());
+        System.out.println("The first letter of the word is: " + initialize.getWordToFind().charAt(0));
         game.startGame();
     }
 }
